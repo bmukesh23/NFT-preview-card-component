@@ -1,0 +1,14 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}

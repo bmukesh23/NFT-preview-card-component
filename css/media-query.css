@@ -1,0 +1,13 @@
+@media (max-width: 375px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .attribution{
+        text-align: center;
+    }
+}

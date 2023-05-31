@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+
+
+.container{
+    background-color:hsl(216, 50%, 16%);
+    width: 310px;
+    border-radius: 15px;
+    padding: 1.5em;
+    height: 520px;
+    box-shadow: -15px 40px 5px hsl(217, 55%, 10%), 15px 40px 5px hsl(217, 55%, 10%);
+}
+
+.card-image_container{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    background-size: 50px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/icon-view.svg);
+    background-color:hsl(178, 100%, 50%);
+    border-radius: 12px;
+}
+
+.card-image{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+h3{
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: small;
+}
+
+.font1{
+    color: hsl(215, 51%, 70%);
+}
+
+.icons{
+   display: flex;
+   justify-content: space-between;
+   margin-top: .5rem;
+}
+
+.ethereum{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: small;
+    font-weight: 500;
+}
+
+.icons2{
+    margin-top: .2rem;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.profile{
+    border: 1px solid white;
+    border-radius: 20px ;
+    height: 30px;
+}
+
+.font2{
+    color: hsl(0, 0%, 100%);
+    font-size:15px;
+}
+
+.attribution{
+    color: hsl(0, 0%, 100%);
+    margin-top: 5rem;
+}
+
+h3:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.card-image:hover{
+    cursor: pointer;  
+    opacity: 0.5; 
+} 
+
+.font2:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
